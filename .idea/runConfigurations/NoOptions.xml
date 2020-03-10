@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="NoOptions" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="io.fernandes.scala.optimisation.specialised.Options" />
+    <module name="scala-optimisation-experiments" />
+    <option name="VM_PARAMETERS" value="-Xms128m -Xmx128m -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -XX:+UseStringDeduplication -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heapdumpSpecialised.hprof -XX:StartFlightRecording=disk=true,dumponexit=true,filename=recording.jfr,maxsize=1024m,maxage=1d,settings=profile" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="io.fernandes.scala.optimisation.specialised.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
